@@ -15,7 +15,7 @@ style:
 ########## 关于主页的设置 ##########
 # home页可选类型
 home:
-  type: "img" # 主页的类型，可选 home | img | simple
+  type: "home" # 主页的类型，可选 home | img | simple
 
 # archive页可选类型
 archive:
@@ -48,10 +48,11 @@ archive_img_mode:
 # icon
 icon:  #标签页图标
 #  header
-site_name: kurumit3
-site_description: . #The default meta description for all the meta descriptions
+site_name: kurumit3.
+site_description: kurumit3. #The default meta description for all the meta descriptions
 #Add description property to any page to change the meta description
 menu:
+  
   
 
 
