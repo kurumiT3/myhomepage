@@ -1,0 +1,11 @@
+<%- js('js/white.js') %>
+
+<% if (config.highlight.enable != true) { %>
+    <% if (theme.plugins.highlightjs && theme.plugins.highlightjs.js) { %>
+      <%- js(theme.plugins.highlightjs.js) %>
+      <script>hljs.initHighlightingOnLoad();</script>
+    <% } %>
+<% } %>
+<%if(is_post()===true){%>
+  <%- js('js/tocbot.min.js')%>
+<%}%>
